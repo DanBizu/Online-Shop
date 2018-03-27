@@ -11,7 +11,12 @@ public class IP27March {
         Item i2=new productType1(50,"Dvi Cable",2);
         Item i3=new productType2(20,"Tricou",3);
         Item i4=new productType3(50,"Camasa",4);
-
+        Database db=new Database();
+        db.addItem(i1);
+        db.addItem(i2);
+        db.addItem(i3);
+        db.addItem(i4);
+       
     }
     
 }

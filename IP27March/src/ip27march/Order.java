@@ -6,7 +6,6 @@ public class Order {
   public Integer orderID;
 
 
-
   public void newOrder() {
   }
 
