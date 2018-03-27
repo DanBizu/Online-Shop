@@ -4,12 +4,11 @@ package ip27march;
 public class Order {
 
   public Integer orderID;
+  Address addr;
+  
 
-
-  public void newOrder() {
-  }
-
-  public void setShippingAdress() {
+  public void setShippingAdress(String shipAddr) {
+      addr.shippingAddress = shipAddr;
   }
 
   public void setPaymentOption() {
